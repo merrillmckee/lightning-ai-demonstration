@@ -1,6 +1,6 @@
 # lightning-ai-demonstration
 
-A quick and simple introduction to creating, training, and running a simple neural network to do image classification. It is presented [in Jupyter notebook form](https://github.com/merrillmckee/lightning-ai-demonstration/blob/main/src/lightning-ai-demo.ipynb) and can be shared in less than 60 minutes.
+A quick and simple introduction to creating, training, and running a simple neural network to do image classification. It is presented [in Jupyter notebook form](https://github.com/merrillmckee/lightning-ai-demonstration/blob/main/src/lightning-ai-demo-gpu.ipynb) and can be shared in less than 60 minutes.
 
 It leverages `Lightning` and `PyTorch`.
 
