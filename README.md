@@ -10,4 +10,8 @@ From `PyTorch`, we use the built-in MNIST dataset, we use its utilties to archit
 
 Finally, outside of the notebook, we can optionally run `TensorBoard` to visualize the training progress with metrics. Here is an example window pane from Tensorboard showing the validation accuracy of two runs. This simple network can achieve validation accuracy over 98%.
 
-![title](images/tensorboard_mlp.png)
+![Single-layer fully connected neural network](images/tensorboard_mlp.png)
+
+Update: It did not take much to change the `HelloModel` from a single-layer fully connected neural network to a CNN based on the `LeNet` architecture. The change in architecture brings accuracy closer to 99% from the previous 98%. State of the art MNIST results typically achieve 99.7% to 99.9% so still room for improvement!
+
+![CNN based on LeNet (result in gray)](images/tensorboard_lenet.png)
