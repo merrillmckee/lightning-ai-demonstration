@@ -8,6 +8,6 @@ From `Lightning`, we inherit `LightningModule` which forms the basis for our neu
 
 From `PyTorch`, we use the built-in MNIST dataset, we use its utilties to architect the fully connected neural network with 1 hidden layer, and we use its Adam optimizer. From its related library, `torchmetrics`, we track the network's training and validation accuracy.
 
-Finally, outside of the notebook, we can optionally run `TensorBoard` to visualize the training progress with metrics.
+Finally, outside of the notebook, we can optionally run `TensorBoard` to visualize the training progress with metrics. Here is an example window pane from Tensorboard showing the validation accuracy of two runs. This simple network can achieve accuracy over 98%.
 
 ![title](images/tensorboard.png)
