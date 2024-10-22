@@ -10,4 +10,4 @@ From `PyTorch`, we use the built-in MNIST dataset, we use its utilties to archit
 
 Finally, outside of the notebook, we can optionally run `TensorBoard` to visualize the training progress with metrics. Here is an example window pane from Tensorboard showing the validation accuracy of two runs. This simple network can achieve validation accuracy over 98%.
 
-![title](images/tensorboard.png)
+![title](images/tensorboard_mlp.png)
