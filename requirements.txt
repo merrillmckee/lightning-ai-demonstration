@@ -2,6 +2,7 @@ ipython
 lightning
 matplotlib
 numpy
+tensorboard
 torch
 torchmetrics
 torchvision
