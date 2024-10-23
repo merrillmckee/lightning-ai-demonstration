@@ -16,4 +16,6 @@ Update 1: It did not take much to change the `HelloModel` [link](https://github.
 
 ![CNN based on LeNet (result in gray)](images/tensorboard_lenet.png)
 
-Update 2: Continuing to improve this PyTorch and Lightning based classifier, it is re-architected to a mini-Resnet architecture. I modified the traditional Resnet architecture to work on the smaller MNIST 1-channel images. Results are now up to 99.X%.
+Update 2: Continuing to improve this PyTorch and Lightning based classifier, it is re-architected to a [mini-Resnet architecture](https://github.com/merrillmckee/lightning-ai-demonstration/blob/main/src/lightning-ai-mini-resnet.ipynb). I modified the traditional Resnet architecture to work on the smaller MNIST 1-channel images. Results are now up to 99.4%.
+
+![CNN based on ResNet (result in green)](images/tensorboard_resnet.png)
