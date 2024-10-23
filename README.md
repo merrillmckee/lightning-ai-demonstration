@@ -12,7 +12,7 @@ Finally, outside of the notebook, we can optionally run `TensorBoard` to visuali
 
 ![Single-layer fully connected neural network](images/tensorboard_mlp.png)
 
-Update 1: It did not take much to change the `HelloModel` [link](https://github.com/merrillmckee/lightning-ai-demonstration/blob/main/src/lightning-ai-demo-gpu.ipynb) from a single-layer fully connected neural network to a CNN based on the `LeNet` architecture `LeNetModel` [link](https://github.com/merrillmckee/lightning-ai-demonstration/blob/main/src/lightning-ai-lenet.ipynb). The change in architecture brings accuracy closer to 99.0% from the previous 98.0%. State of the art MNIST results typically achieve 99.7% to 99.9% so still room for improvement!
+Update 1: It did not take much to change the `HelloModel` [link](https://github.com/merrillmckee/lightning-ai-demonstration/blob/main/src/lightning-ai-demo-gpu.ipynb) from a single-layer fully connected neural network to a CNN based on the `LeNet` architecture `LeNetModel` [link](https://github.com/merrillmckee/lightning-ai-demonstration/blob/main/src/lightning-ai-lenet.ipynb). The change in architecture brings accuracy closer to 99.0% (gray line below) from the previous 98.0%. State of the art MNIST results typically achieve 99.7% to 99.9% so still room for improvement!
 
 ![CNN based on LeNet (result in gray)](images/tensorboard_lenet.png)
 
